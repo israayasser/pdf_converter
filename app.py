@@ -17,7 +17,7 @@ class PDFConverterApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Finance PDF → Excel")
+        self.title("Paymob Finance Report Converter")
         self.geometry("700x650")
         self.resizable(False, False)
 
@@ -35,7 +35,7 @@ class PDFConverterApp(ctk.CTk):
 
         self.title_label = ctk.CTkLabel(
             self.container,
-            text="Finance PDF → Excel",
+            text="Finance Report Converter",
             font=ctk.CTkFont(size=28, weight="bold"),
         )
         self.title_label.pack(pady=(25, 5))
